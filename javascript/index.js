@@ -35,7 +35,7 @@ function removeActiveClasses() {
 }
 // Cargar noticias desde un archivo JSON
 function cargarNoticias() {
-    $.getJSON("/trabajoFinal_DiegoPerez/data/tecnologia.json", function (data) {
+    $.getJSON("/data/tecnologia.json", function (data) {
         console.log(data); // Verifica si se están obteniendo los datos
 
         var noticiasHTML = '';
